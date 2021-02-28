@@ -1,0 +1,224 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    margin-right: 60px;
+    margin-top: 25px;
+    
+}
+.main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+  }
+
+.logoreservia{
+    display:flex;
+    width:100px;
+    padding: 0 2rem;
+    
+}
+
+.header{
+    display:flex;
+    align-items: center;
+}
+
+.headerNav{
+    display:flex;
+    position:absolute;
+    right:150px;
+
+}
+.signup{
+    position:absolute;
+    right:60px;
+    font-weight:bold;
+    color:#0065FC;
+}
+
+.headertitle{
+    margin-bottom:0.5rem;
+}
+
+.hosting{
+    margin-right: 70px;
+}
+
+.activity{
+    margin-right: 40px;
+    
+}
+
+.pheader{
+    font-size:15px;
+}
+
+.form{
+    display:flex;
+    height: 43px;
+    
+
+}
+
+.iconposition{
+  background-color: #F2F2F2;
+  border-radius: 1rem 0 0 1rem;
+  text-align:center;
+  padding: 0.75rem 1rem;
+
+}
+
+.searchinput{
+  
+  font-weight:bold;
+  width:200px;
+  border-right:none;
+  border-left: none;
+  border-top: #F2F2F2 1px solid;
+  border-bottom: #F2F2F2 1px solid;
+  font-family:"raleway",sans-serif;
+  
+  
+}
+.buttonsearch{
+  background-color:#0065FC;
+  color:white;
+  border-left:solid 1px;
+  border-radius: 0rem 1rem 1rem 0rem;
+  width:138px;
+  border:transparent;
+  font-weight: 600;
+  font-size: 15px;
+  font-family:"raleway", sans-serif;
+  cursor:pointer;
+}
+
+.filter{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: baseline;
+    jus
+}
+
+.economic{
+    display:flex;
+    border: 2px solid #d9d9d9;
+    border-radius:2rem;
+    cursor: pointer;
+    border-left:none;
+}
+
+.iconmoney{
+    background-color:#DEEBFF;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#0065FC;
+    min-height: 3.5rem;
+    min-width: 3.5rem;
+}
+
+.economictext{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.family{
+    display:flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: 2px solid #d9d9d9;
+    border-left:none;
+    cursor: pointer;
+}
+
+.iconfamily{
+    border-radius:100%;
+    background-color:#DEEBFF;
+    width: 3rem;
+    height: 3rem;
+    color:#0065FC;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.families{
+    font-weight: bold;
+}
+
+.romantic{
+    display:flex;
+    border-radius: 2rem;
+    border: 2px solid #d9d9d9;
+    border-left:none;
+    cursor:pointer;
+
+    
+}
+.iconromantic{
+    border-radius:100%;
+    background-color:#DEEBFF;
+    color:#0065FC;
+    width: 3rem;
+    height: 3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.romantictext{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.animal{
+    display:flex;
+    border: 2px solid #d9d9d9;;
+    border-radius:2rem;
+    border-left:none;
+    cursor:pointer;
+}
+.iconanimal{
+    border-radius:100%;
+    background-color:#DEEBFF;
+    color:#0065FC;
+    width: 3rem;
+    height: 3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.animaltext{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    font-size:17px;
+}
+.info{
+    display:flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+.infoicon{
+  height: 2rem;
+  width: 2rem;
+  min-height: 2rem;
+  min-width: 2rem;
+  border: solid 1px #d9d9d9;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:blue;
+}
