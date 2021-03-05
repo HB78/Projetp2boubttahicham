@@ -14,13 +14,14 @@
 <body>
     <!--HEADER-->
       <header class="header">
-      <img class="logoreservia"src="./Reservia.png" alt="reservia_logo">
-      <nav class="headerNav">
+      <div><img class="logoreservia" src="./Reservia.png" alt="reservia_logo"></div>
+      <nav class="headernav">
         <a class="hosting" href="#hébergement">Hébergement</a>
         <a class="activity" href="#activités">Activités</a>
+        <a class="signup" href="#sincrire">S'incrire</a>
         </nav>
         
-        <a class="signup" href="#sincrire">S'incrire</a>
+        
       
         
       
@@ -88,21 +89,25 @@
       
        <!--HEBERGEMENT-->
             <section>
-              <div>
-                 <header>
-                   <h2>Hébergements à Marseille</h2>
-                 </header>
+      <div class="hostingsection">
+              <header>
+                <h2>Hébergements à Marseille</h2>
+              </header>
+              <div class="mainhosting">
                  
-                 <article>
+                 <article class="firstarticle">
+                   <div class=firstarticle>
                    <a href="#">
-                       <figure>
-                         <img src="./img/alpha.jpg" alt="chambre d'hotel avec lit superposé et vu sur la rue">
+                       
+                         <img src="./img/sigma.jpg" alt="chambre d'hotel avec lit superposé et vu sur la rue" 
+                         class="firstarticleimg"
+                         >
 
-                         <figcaption><h3>Auberge de la canebière</h3></figcaption>
-                        </figure>
+                         <h3 class="textone">Auberge de la canebière</h3>
+                        
 
-                        <p>Nuit à partir de <strong>25€</strong></p>
-                        <div>
+                        <p class="textcardone">Nuit à partir de <strong>25€</strong></p>
+                        <div class="iconcardone">
                           <i class="fa fa-star" aria-hidden="true"></i>
                           <i class="fa fa-star" aria-hidden="true"></i>
                           <i class="fa fa-star" aria-hidden="true"></i>
@@ -111,12 +116,16 @@
                           
                         </div>
                    </a>
-                 </article>
+                   </div>
+                  </article>
 
-                 <article>
+                 
+
+                 <article class="secondarticle">
                   <a href="#">
                     <figure>
-                      <img src="./img/beta.jpg" alt="belle petite chambre d'hotel bleue ciel avec deux lits séparés et mirroir">
+                      <img src="./img/beta2.jpg" alt="belle petite chambre d'hotel bleue ciel avec deux lits séparés et mirroir"
+                      class="secondarticleimg">
 
                       <figcaption><h3>Hotel du port</h3></figcaption>
                      </figure>
@@ -127,16 +136,17 @@
                        <i class="fa fa-star" aria-hidden="true"></i>
                        <i class="fa fa-star" aria-hidden="true"></i>
                        <i class="fa fa-star" aria-hidden="true"></i>
-                       <i class="fa fa-star-o" aria-hidden="true"></i>
+                       <i class="fa fa-star" aria-hidden="true"></i>
                       </div>
 
                      </a>
                     </article>
 
-                    <article>
+                    <article class="thirdarticle">
                       <a href="#">
                         <figure>
-                          <img src="./img/omega.jpg" alt="belle chambre d'hotel simple et moderner avec mirroir et placard">
+                          <img src="./img/omega3.jpg" alt="belle chambre d'hotel simple et moderner avec mirroir et placard"
+                          class="thirdarticleimg">
     
                           <figcaption><h3>Hotel les mouettes</h3></figcaption>
                          </figure>
@@ -154,10 +164,11 @@
     
                      </article>
 
-                     <article>
+                     <article class="fourtharticle">
                       <a href="#">
                         <figure>
-                          <img src="./img/delta.jpg" alt="belle petite chambre d'hotel ">
+                          <img src="./img/delta4.jpg" alt="belle petite chambre d'hotel "
+                          class="fourtharticleimg">
     
                           <figcaption><h3>Hotel sur la mer</h3></figcaption>
                          </figure>
@@ -167,7 +178,7 @@
                            <i class="fa fa-star" aria-hidden="true"></i>
                            <i class="fa fa-star" aria-hidden="true"></i>
                            <i class="fa fa-star" aria-hidden="true"></i>
-                           <i class="fa fa-star" aria-hidden="true"></i>
+                           <i class="fa fa-star-o" aria-hidden="true"></i>
                            <i class="fa fa-star-o" aria-hidden="true"></i>
                           </div>
     
@@ -175,10 +186,11 @@
     
                      </article>
 
-                     <article>
+                     <article class="fivearticle">
                       <a href="#">
                         <figure>
-                          <img src="./img/zeta.jpg" alt="belle chambre d'hotelau style rustique ayant deux lits">
+                          <img src="./img/zeta5.jpg" alt="belle chambre d'hotelau style rustique ayant deux lits"
+                          class="fivearticleimg">
     
                           <figcaption><h3>Auberge Le Panier</h3></figcaption>
                          </figure>
@@ -194,14 +206,15 @@
     
                          </a>
     
-                     </article>
+                     </article> 
 
-                     <article>
+                     <article class="sixarticle">
                       <a href="#">
                         <figure>
-                          <img src="./img/epsilon.jpg" alt="belle petite chambre d'hotel au style très épuré">
+                          <img src="./img/epsilon6.jpg" alt="belle petite chambre d'hotel au style très épuré"
+                          class="sixarticleimg">
     
-                          <figcaption><h3>Hotel chez Amina</h3></figcaption>
+                          <figcaption><h3 class="h1one">Hotel chez Amina</h3></figcaption>
                          </figure>
     
                          <p>Nuit à partir de <strong>96€</strong></p>
@@ -210,15 +223,19 @@
                            <i class="fa fa-star" aria-hidden="true"></i>
                            <i class="fa fa-star" aria-hidden="true"></i>
                            <i class="fa fa-star" aria-hidden="true"></i>
-                           <i class="fa fa-star-o" aria-hidden="true"></i>
+                           <i class="fa fa-star" aria-hidden="true"></i>
                          </div>
     
                          </a>
+                     </article>   
+              </div>
+           
 
                          <a href="#"><P>Afficher plus</p></a>
+        </div>
     
-                     </article>
-              </div>
+                     
+              
 
                <aside>
                  <div>
@@ -227,7 +244,7 @@
                 <a href="#">
                 <article>
                   <figure>
-                    <img src="./img/hotelsoleil.jpg" alt="chambre d'hotel à la couleur verte dominante">
+                    <img src="./img/alphaX.jpg" alt="chambre d'hotel à la couleur verte dominante">
                     <figcaption><h3>Hotel Le soleil du matin</h3></figcaption>
                   </figure>
                   <p>Nuit à partir de <strong>128€</strong></p>
@@ -247,7 +264,7 @@
                 <article>
                   <a href="#">
                     <figure>
-                      <img src="./img/chambrehote.jpg" alt="chambre d'hotes dont le thème est au coeur de l'eau">
+                      <img src="./img/chambrehoteX.jpg" alt="chambre d'hotes dont le thème est au coeur de l'eau">
                       <figcaption><h3>Au coeur de l'eau Chambre d'hotes</h3></figcaption>
                     </figure>
                     <p>Nuit à partir de <strong>71€</strong></p>
@@ -266,7 +283,7 @@
                 <article>
                   <a href="#">
                     <figure>
-                      <img src="./img/hotelblanc.jpg" alt="chambre d'hotel simple et chic">
+                      <img src="./img/hotelblancX.jpg" alt="chambre d'hotel simple et chic">
                       <figcaption><h3>Hotel tout bleu et blanc</h3></figcaption>
                     </figure>
                     <p>Nuit à partir de <strong>68€</strong></p>
@@ -283,7 +300,7 @@
                 </article>
 
 
-                 </div>
+                </div>
                </aside>
         
             </section>
@@ -296,7 +313,7 @@
              <header><h2>Activités à Marseille</h2></header>
              <a>
               <div>
-                <img src="./img/vieuxport.jpg" alt="un port bondé de bateaux avec la vieille ville en arrière plan">
+                <img src="./img/vieuxport1.jpg" alt="un port bondé de bateaux avec la vieille ville en arrière plan">
                 
               </div>
               <h3>Vieux port</h3>
@@ -305,35 +322,35 @@
 
              <a>
                <div>
-                 <img src="./img/fortdePomègues.jpg" alt="paysage rocheux avec au second plan un ancien fort en ruine">
+                 <img src="./img/fortdePomègues1.jpg" alt="paysage rocheux avec au second plan un ancien fort en ruine">
                </div>
                <h3>fort de Pomègues</h3>
              </a>
 
              <a>
                <div>
-                 <img src="./img/ileduFrioul.jpg" alt="on voit sous un ciel ensoleillé la mer meditérranée et un ile au loin">
+                 <img src="./img/ileduFrioul1.jpg" alt="on voit sous un ciel ensoleillé la mer meditérranée et un ile au loin">
                </div>
                <h3>Iles du Frioul</h3>
              </a>
 
              <a>
                <div>
-                 <img src="./img/ParcNationaldesCalanques.jpg" alt="paysage montagneux au bord de la mer">
+                 <img src="./img/ParcNationaldesCalanques1.jpg" alt="paysage montagneux au bord de la mer">
                </div>
                <h3>Parc National des Calanques</h3>
              </a>
 
              <a>
                <div>
-                 <img src="./img/NotreDameDeLaGarde.jpg" alt="la ville en premier plan et la cathédrale au sommet d'une montagne">
+                 <img src="./img/NotreDameDeLaGarde1.jpg" alt="la ville en premier plan et la cathédrale au sommet d'une montagne">
                </div>
                <h3>Notre-Dame-De-La-Garde</h3>
              </a>
 
              <a>
                <div>
-                 <img src="./img/parcLongchamp.jpg" alt="un batiment en pierre avec une fontaine au premier plan
+                 <img src="./img/parcLongchamp1.jpg" alt="un batiment en pierre avec une fontaine au premier plan
                  c'est majestueux le style est celui du néo classicisme du Second Empire">
                </div>
                <h3>Parc Longchamps</h3>
