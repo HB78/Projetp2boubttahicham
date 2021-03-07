@@ -260,35 +260,287 @@ a:link{
     background-color:#F2F2F2;
     padding-right:9px;
     border-radius: 1rem 1rem 1rem 1rem;
-    width:780px;
+    width:709px;
     border:1px solid transparent;
-    height:600px;
-    padding-left:2rem;
-    padding-right:2rem;
-    margin-left:0rem;
-    background-color: white;
+    height:590px;
+    padding-left:1.5rem;
+    padding-top:8px;
+    
 }   
 .mainhosting{
     display:flex;
     flex-wrap: wrap;
-    justify-content:space-between;
 }
 
-.firstarticle,.secondarticle,.thirdarticle,.fourtharticle,.fivearticle,.sixarticle{
-    width:14rem;
-    height:9rem;
+.firstarticle{
+    width:15vw;
+    height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
-    border:1px solid tranparent;
+    border:1px solid transparent;
     background-color: white;
+    object-fit: contain;
+    padding:1%;
+    margin-right:30px;
+    margin-bottom:30px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
     
-.firstarticleimg,.secondarticleimg,.thirdarticleimg,.fourtharticleimg,.fivearticleimg,.sixarticleimg{
-    width:13rem;
-    height:6rem
-
+.firstarticleimg{
+    width:15vw;
+    height:100px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.textfirst{
+    font-size:13px;
+}
+.articletwo{
+    width:15vw;
+    height:200px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border:1px solid transparent;
+    background-color: white;
+    object-fit: contain;
+    padding:1%;
+    margin-right:30px;
+    margin-bottom:30px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.secondarticleimg{
+    width:15vw;
+    height:100px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.texttwo{
+    font-size:13px;
+}
+.articlethree{
+    width:15vw;
+    height:200px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border:1px solid transparent;
+    background-color: white;
+    object-fit: contain;
+    padding:1%;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}   
+.thirdarticleimg{
+    width:15vw;
+    height:100px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.textthree{
+    font-size:13px;
+}
+.articlefour{
+    width:15vw;
+    height:200px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border:1px solid transparent;
+    background-color: white;
+    object-fit: contain;
+    padding:1%; 
+    margin-right:30px;
+    margin-bottom:30px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.fourtharticleimg{
+    width:15vw;
+    height:100px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.textfour{
+    font-size:13px;
+}
+.articlefive{
+    width:15vw;
+    height:200px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border:1px solid transparent;
+    background-color: white;
+    object-fit: contain;
+    padding:1%;
+    margin-right:30px;
+    margin-bottom:30px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.fivearticleimg{
+    width:15vw;
+    height:100px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.textfive,.textsix{
+    font-size:13px;
+}
+.articlesix{
+    width:15vw;
+    height:200px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    border:1px solid transparent;
+    background-color: white;
+    object-fit: contain;
+    padding:1%;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+.sixarticleimg{
+    width:15vw;
+    height:100px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+article:hover{
+    transform: scale(1.09);
 }
 
-.iconcardone{
-    color:blue;
-    margin-left:2.48rem;
+.textfirst,.texttwo,.textthree,.textfour,.textfive,.textsix{
+    color:black;
 }
+.showmore{
+    color:black;
+    font-weight:bold;
+}
+/*le aside de herbergement*/
+
+.mainsection{
+    display:flex;
+    justify-content:space-between;
+}
+.mostpopulare{
+   border: #F2F2F2 solid 1px;
+   background-color: #F2F2F2;
+   height:590px;
+   width:395px;
+   border-radius:1rem;
+   padding-top:5px;
+   padding-left:1.2rem;
+   padding-right:1.5rem;
+   display:flex;
+   flex-wrap: wrap;
+}
+
+.greenroom{
+  border: 1px solid transparent;
+  background-color:white;
+  height:140px;
+  width:379px;
+  border-radius:1rem;
+  object-fit: contain;
+  padding:1%;
+  display:flex;
+  font-size:10px;
+  flex-direction:row;
+}
+.greenroomimg{
+    height:139.5px;
+    width:8.5vw;
+    border-radius:1rem 0rem 0rem 1rem;
+    border-right:solid transparent;
+    object-fit: cover;
+}
+.textgreenroom{
+    font-size:13px;
+    line-height:19px;
+}
+.waterroom{
+  border: 1px solid transparent;
+  background-color:white;
+  height:140px;
+  width:379px;
+  border-radius:1rem;
+  object-fit: contain;
+  padding:1%;
+  display:flex;
+  font-size:10px;
+  box-sizing: border-box;
+}
+.waterroomimg{
+    height:132px;
+    width:8.5vw;
+    border-radius:1rem 0rem 0rem 1rem;
+    border-right:solid transparent;
+    object-fit: cover;
+    text-align: left;
+}
+.textwaterroom{
+    color:black;
+    display:block;
+    font-size:13px;
+    line-height:19px;
+    
+}
+.roomblueandwhite{
+    border: 1px solid transparent;
+    background-color:white;
+    height:140px;
+    width:379px;
+    border-radius:1rem;
+    object-fit: contain;
+    padding:1%;
+    display:flex;
+    font-size:10px;
+    flex-direction: row;
+}
+.roomblueandwhiteimg{
+    height:139.5px;
+    width:8.5vw;
+    border-radius:1rem 0rem 0rem 1rem;
+    border-right:solid transparent;
+    object-fit: cover;
+}
+.textroomblueandwhite{
+    font-size:13px;
+    line-height:19px;
+    color:black;
+}
+
+.bou{
+  display:flex;
+  justify-content: space-evenly;
+}
+/*activités à Marseille*/
+
+.vieuxport,.calanques{
+    height:440px;
+    width:300px;
+    border-radius:1rem;
+    border:1px solid transparent;
+    object-fit: contain;
+    background-color: white;
+    margin:2rem;
+}
+.vieuxportimg,.calanquesimg{
+    width:300px;
+    height:420px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    box-shadow:0 0 10px rgb(0,0,0,0.5);
+    object-fit: cover;
+}
+.fortpomegues,.iledufrioul,.notredame,.parclongchamp{
+    height:270px;
+    width:320px;
+    border-radius:1rem;
+    border:1px solid transparent;
+    object-fit: contain;
+    background-color: white;
+    
+}
+.fortpomeguesimg,.iledufrioulimg,.notredameimg,.parclongchampimg{
+    height:200px;
+    width:320px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    box-shadow:0 0 10px rgb(0,0,0,0.5);
+    object-fit: cover;
+}
+.activity{
+  display:flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+
+
+
