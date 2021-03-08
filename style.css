@@ -1,7 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    margin-right: 60px;
+    font-style:normal;
     margin-top:25px;
 }
 .main {
@@ -36,6 +35,7 @@ body{
     font-weight:bold;
     color:#0065FC;
     text-decoration: none;
+    margin-right:30px;
     
 }
 
@@ -263,8 +263,12 @@ a:link{
     width:709px;
     border:1px solid transparent;
     height:590px;
-    padding-left:1.5rem;
+    padding-left:2rem;
     padding-top:8px;
+
+    
+    
+    
     
 }   
 .mainhosting{
@@ -416,7 +420,7 @@ article:hover{
    width:395px;
    border-radius:1rem;
    padding-top:5px;
-   padding-left:1.2rem;
+   padding-left:2rem;
    padding-right:1.5rem;
    display:flex;
    flex-wrap: wrap;
@@ -449,7 +453,7 @@ article:hover{
   border: 1px solid transparent;
   background-color:white;
   height:140px;
-  width:379px;
+  width:390px;
   border-radius:1rem;
   object-fit: contain;
   padding:1%;
@@ -503,42 +507,132 @@ article:hover{
 }
 /*activités à Marseille*/
 
-.vieuxport,.calanques{
-    height:440px;
-    width:300px;
+.calanques{
+    height:520px;
+    width:252px;
     border-radius:1rem;
     border:1px solid transparent;
     object-fit: contain;
     background-color: white;
-    margin:2rem;
+    margin-left:auto;
+    margin-top:4px;
+    margin-right: auto;
+    box-shadow:0 0 10px rgb(0,0,0,0.5);
+    cursor: pointer;
 }
-.vieuxportimg,.calanquesimg{
-    width:300px;
-    height:420px;
+.calanquesimg{
+    width:252px;
+    height:462px;
     border-radius: 1rem 1rem 0rem 0rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     object-fit: cover;
 }
 .fortpomegues,.iledufrioul,.notredame,.parclongchamp{
-    height:270px;
-    width:320px;
+    height:240px;
+    width:260px;
     border-radius:1rem;
     border:1px solid transparent;
     object-fit: contain;
     background-color: white;
+    box-shadow:0 0 10px rgb(0,0,0,0.5);
+    cursor: pointer;
     
 }
 .fortpomeguesimg,.iledufrioulimg,.notredameimg,.parclongchampimg{
-    height:200px;
-    width:320px;
+    height:180px;
+    width:260px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    object-fit: cover;
+}
+/*utilisation de flexbox pour organiser les photos dans la section*/
+
+.activity{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    box-sizing: border-box;
+  }
+  /*pour séparer la partie hebergement et activités à Marseille*/
+
+  .sectionactivity{
+      margin-top: 4rem;
+
+  }
+  /* mise en place des deux blocs contenant chacune deux petites photos par rapports aux grandes photos*/
+
+  .blocnotredameandlongchamp{
+      margin-left:1rem;
+      margin-right:auto;
+      margin-top:8px;
+    
+  }
+  .blocfrioulandfort{
+    margin-right:1rem;
+    margin-top:8px;
+  }
+
+  .vieuxport{
+    height:513px;
+    width:252px;
+    border-radius:1rem;
+    border:1px solid transparent;
+    object-fit: contain;
+    background-color: white;
+    margin:2rem;
+    margin-top:8px;
+    box-shadow:0 0 10px rgb(0,0,0,0.5);
+    cursor: pointer;
+  }
+  .vieuxportimg{
+    width:252px;
+    height:454px;
     border-radius: 1rem 1rem 0rem 0rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     object-fit: cover;
+  }
+/*pour decoller les photos entre elles*/
+  
+.fortpomegues,.notredame{
+ margin-bottom:2rem;
+
+  }
+
+  /*footer*/
+  
+.footer{
+    border:1px solid transparent;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    width:1440px;
+    height:auto;
+    max-width:100%;
+    display:flex;
+    justify-content: space-around;    
+    margin-top:2rem;
 }
-.activity{
-  display:flex;
-  flex-wrap: wrap;
-  align-content: space-between;
+
+.aboutfooter{
+  display: flex;
+  align-items:flex-start;
+  flex-direction:column;
+  line-height:35px;
+
+
+}
+.ourhosting{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    line-height:35px;
+}
+.help{
+    display:flex;
+    flex-direction: column;
+    line-height:35px;
+    align-items:flex-start;
+}
+.colorfooter{
+    color:black;
 }
 
 
