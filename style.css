@@ -1,15 +1,18 @@
 body{
     font-family: 'Raleway', sans-serif;
     font-style:normal;
-    margin-top:25px;
+    
 }
+
 .main {
     max-width: 1440px;
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
+    
   }
 
+  
 /*header and nav*/
 
 .logoreservia{
@@ -23,11 +26,12 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .headernav{
      display:flex;
-
+     align-items: center;
 }
 
 .signup{
@@ -40,12 +44,14 @@ body{
 }
 
 .hosting,.activity:hover{
-    border-top:1px blue solid;
-    padding:0.3px;
+    border-top:3px #0065FC solid;
+    padding:20px;
+    color:#0065FC;
 }
 .signup:hover{
     transform: scale(1.11);
-
+    border-top:3px #0065FC solid;
+    padding:20px;
 }
 
 .headertitle{
@@ -55,23 +61,24 @@ body{
 .hosting{
     margin-right: 70px;
     text-decoration:none;
+    color:#0065FC;
 }
-
 
 .activity{
     margin-right: 70px;
     text-decoration: none;
+    color:black;
 }
 
 .pheader{
     font-size:15px;
 }
 
+
 .form{
     display:flex;
     height: 43px;
     
-
 }
 
 .iconposition{
@@ -271,14 +278,19 @@ a:link{
     padding-left:2rem;
     padding-top:8px;
 
-    
-    
-    
-    
-}   
+ }   
+
 .mainhosting{
     display:flex;
     flex-wrap: wrap;
+}
+
+.bluestar{
+    color:blue;
+    text-decoration: none;
+}
+a{
+   color:inherit;
 }
 
 .firstarticle{
@@ -418,6 +430,12 @@ article:hover{
     display:flex;
     justify-content:space-between;
 }
+@media screen and (max-width: 425px) {
+    .mainsection{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+}
 .mostpopulare{
    border: #F2F2F2 solid 1px;
    background-color: #F2F2F2;
@@ -535,9 +553,10 @@ article:hover{
     margin-right: auto;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     cursor: pointer;
+    padding-right:2.5rem;
 }
 .calanquesimg{
-    width:252px;
+    width:293px;
     height:462px;
     border-radius: 1rem 1rem 0rem 0rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
@@ -562,7 +581,7 @@ article:hover{
 }
 /*utilisation de flexbox pour organiser les photos dans la section*/
 
-.activity{
+.activities{
     display:flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -577,14 +596,15 @@ article:hover{
   /* mise en place des deux blocs contenant chacune deux petites photos par rapports aux grandes photos*/
 
   .blocnotredameandlongchamp{
-      margin-left:1rem;
-      margin-right:auto;
+      margin-left:10px; /*1rem margin left*/
+      margin-right:auto; 
       margin-top:8px;
     
   }
   .blocfrioulandfort{
     margin-right:1rem;
-    margin-top:8px;
+    margin-top:2px;
+    margin-left:2.5rem; 
   }
 
   .vieuxport{
@@ -594,13 +614,15 @@ article:hover{
     border:1px solid transparent;
     object-fit: contain;
     background-color: white;
-    margin:2rem;
-    margin-top:8px;
+    margin-bottom:2rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     cursor: pointer;
+    margin-left:1rem;  
+    padding-right:30px; 
+    margin-top:2px;
   }
   .vieuxportimg{
-    width:252px;
+    width:283px;
     height:454px;
     border-radius: 1rem 1rem 0rem 0rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
@@ -609,7 +631,15 @@ article:hover{
   .vieuxporttxt,.forttext,.frioultext,.parctext{
     margin-left:20px;
 }
-
+/*reglage du font size et du margin pour faire rentrer le titre calanque dans la card*/
+.calanquestext{
+ margin-left:1rem;
+ font-size:17.7px;
+}
+.notredametext{
+    margin-left:20px;
+ font-size:17px;
+}
 /*pour decoller les photos entre elles*/
   
 .fortpomegues,.notredame{
@@ -654,5 +684,4 @@ article:hover{
 .colorfooter{
     color:black;
 }
-
 
