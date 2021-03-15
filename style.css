@@ -43,18 +43,7 @@ body{
     
 }
 
-.hosting,.activity:hover{
-    border-top:3px #0065FC solid;
-    padding:20px;
-    color:#0065FC;
-}
-.signup:hover{
-    transform: scale(1.11);
-    border-top:3px #0065FC solid;
-    padding:20px;
-}
-
-.headertitle{
+.sectionsearchtitle{
     margin-bottom:0.5rem;
 }
 
@@ -70,7 +59,7 @@ body{
     color:black;
 }
 
-.pheader{
+.sectionsearchparagraph{
     font-size:15px;
 }
 
@@ -259,14 +248,36 @@ body{
 .infotext{
     padding-left:1rem;
 }
+/*ajout des parametres hover du header et de la section recherche*/
 
 a:link{
     text-decoration: none;
 }
+.animal:hover{
+    background-color:#DEEBFF;
+}
+.romantic:hover{
+    background-color:#DEEBFF;
+}
+.economic:hover{
+    background-color:#DEEBFF;
+}
+.family:hover{
+    background-color:#DEEBFF;
+}
+.hosting,.activity:hover{
+    border-top:3px #0065FC solid;
+    padding:21px;
+    color:#0065FC;
+}
+.signup:hover{
+    transform: scale(1.09);
+    border-top:3px #0065FC solid;
+    padding:21px;
+}
 
-/* hosting*/
 
-/*firstarticlehosting*/
+/* hosting*/ /*mise en place de la section hebergement*/
 
 .hostingsection{
     background-color:#F2F2F2;
@@ -285,7 +296,7 @@ a:link{
     flex-wrap: wrap;
 }
 
-.bluestar{
+.bluestar,.stars{
     color:blue;
     text-decoration: none;
 }
@@ -426,6 +437,9 @@ article:hover{
 }
 /*le aside de herbergement*/
 
+/* la class mainsection regroupe la section hebergement et son aside "les plus populaire", on a fait un display flex pour 
+les mettre cote a cote.*/
+
 .mainsection{
     display:flex;
     justify-content:space-between;
@@ -434,6 +448,9 @@ article:hover{
     .mainsection{
         display:flex;
         flex-direction: column-reverse;
+    }
+    .body{
+        max-width:425px;
     }
 }
 .mostpopulare{
@@ -535,10 +552,6 @@ article:hover{
     color:black;
 }
 
-.bou{
-  display:flex;
-  justify-content: space-evenly;
-}
 /*activités à Marseille*/
 
 .calanques{
