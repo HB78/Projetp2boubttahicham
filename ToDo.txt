@@ -1,0 +1,15 @@
+-- Rendre la partie descktop responsive
+  -x- Boody sans marge 100% largeur
+  -x- Main 100% de largeur et padding horizontal
+  -x- Trouver les élément qui dépasse des 100% du main avec des valeur en dur (px)
+    -x- main section et l'interieur
+    mainsection
+      -x- hostingsection
+         !-- mainhosting (titre les 2 ligne de 3 image voir plus)
+      -x- mostpopulare
+
+-- Adapter la partie mobile avec les media querie
+  -- 1100px Hebergement a marseille les plus populaire en flex column responsive
+  -- 600px
+  -- 400px
+  

@@ -1,16 +1,18 @@
 body{
     font-family: 'Raleway', sans-serif;
     font-style:normal;
-    
-}
+    width:100%;
+    margin:0px;
+    padding:0px;
 
+}
 .main {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
     max-width: 1440px;
     margin: auto;
-    padding: 0 2rem;
-    box-sizing: border-box;
-    
-  }
+}
 
   
 /*header and nav*/
@@ -19,19 +21,23 @@ body{
     width: 110px; 
     padding: 0 2rem;
     padding-left: 15px;
-    
 }
 
 .header{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    
+    max-width: 1440px;
+    margin: auto;
 }
 
 .headernav{
      display:flex;
      align-items: center;
+}
+
+.secondnav{
+    display:none;
 }
 
 .signup{
@@ -271,7 +277,7 @@ a:link{
     color:#0065FC;
 }
 .signup:hover{
-    transform: scale(1.09);
+
     border-top:3px #0065FC solid;
     padding:21px;
 }
@@ -283,16 +289,18 @@ a:link{
     background-color:#F2F2F2;
     padding-right:9px;
     border-radius: 1rem 1rem 1rem 1rem;
-    width:709px;
+    width: 58%;
     border:1px solid transparent;
     height:590px;
     padding-left:2rem;
     padding-top:8px;
-
- }   
+    margin-right:2%;
+ } 
+ 
 
 .mainhosting{
     display:flex;
+    flex-direction:row;
     flex-wrap: wrap;
 }
 
@@ -311,15 +319,15 @@ a{
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
-    padding:1%;
-    margin-right:30px;
-    margin-bottom:30px;
+    padding:0.5%;
+    margin-right : 30px;
+    margin-bottom: 30px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
     
 .firstarticleimg{
-    width:15vw;
-    height:100px;
+    width:100%;
+    height:50%;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
@@ -333,14 +341,14 @@ a{
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
-    padding:1%;
-    margin-right:30px;
-    margin-bottom:30px;
+    padding:0.5%;
+    margin-right : 30px;
+    margin-bottom: 30px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .secondarticleimg{
-    width:15vw;
-    height:100px;
+    width:100%;
+    height:50%;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
@@ -354,11 +362,11 @@ a{
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
-    padding:1%;
+    padding:0.5%;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }   
 .thirdarticleimg{
-    width:15vw;
+    width:100%;
     height:100px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
@@ -373,13 +381,13 @@ a{
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
-    padding:1%; 
-    margin-right:30px;
-    margin-bottom:30px;
+    padding:0.5%; 
+    margin-right : 30px;
+    margin-bottom: 30px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .fourtharticleimg{
-    width:15vw;
+    width:100%;
     height:100px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
@@ -394,13 +402,13 @@ a{
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
-    padding:1%;
-    margin-right:30px;
+    padding:0.5%;
+    margin-right :30px;
     margin-bottom:30px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .fivearticleimg{
-    width:15vw;
+    width:100%;
     height:100px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
@@ -415,11 +423,11 @@ a{
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
-    padding:1%;
+    padding:0.5%;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .sixarticleimg{
-    width:15vw;
+    width:100%;
     height:100px;
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
@@ -435,6 +443,7 @@ article:hover{
     color:black;
     font-weight:bold;
 }
+
 /*le aside de herbergement*/
 
 /* la class mainsection regroupe la section hebergement et son aside "les plus populaire", on a fait un display flex pour 
@@ -442,29 +451,23 @@ les mettre cote a cote.*/
 
 .mainsection{
     display:flex;
-    justify-content:space-between;
+    justify-content: center;
 }
-@media screen and (max-width: 425px) {
-    .mainsection{
-        display:flex;
-        flex-direction: column-reverse;
-    }
-    .body{
-        max-width:425px;
-    }
-}
+
 .mostpopulare{
    border: #F2F2F2 solid 1px;
    background-color: #F2F2F2;
    height:590px;
-   width:400px;
+   width:35%;
    border-radius:1rem;
    padding-top:5px;
    padding-left:2rem;
    padding-right:1.5rem;
    display:flex;
    flex-wrap: wrap;
+   margin-left: 2%;
 }
+
 .titlepopulare{
     display:flex;
     flex-direction: row;
@@ -472,7 +475,7 @@ les mettre cote a cote.*/
     align-items: center;
 }
 .iconpopulare{
-    margin-left:160px;
+    margin-left:150px;
     font-weight:bold;
     font-size:20px;
 }
@@ -481,13 +484,14 @@ les mettre cote a cote.*/
   border: 1px solid transparent;
   background-color:white;
   height:140px;
-  width:379px;
+  width:27.9vw;
   border-radius:1rem;
   object-fit: contain;
   padding:1%;
   display:flex;
   font-size:10px;
   flex-direction:row;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .greenroomimg{
     height:139.5px;
@@ -504,13 +508,14 @@ les mettre cote a cote.*/
   border: 1px solid transparent;
   background-color:white;
   height:140px;
-  width:390px;
+  width:28.70vw;
   border-radius:1rem;
   object-fit: contain;
   padding:1%;
   display:flex;
   font-size:10px;
   box-sizing: border-box;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .waterroomimg{
     height:132px;
@@ -531,13 +536,14 @@ les mettre cote a cote.*/
     border: 1px solid transparent;
     background-color:white;
     height:140px;
-    width:379px;
+    width:27.9vw;
     border-radius:1rem;
     object-fit: contain;
     padding:1%;
     display:flex;
     font-size:10px;
     flex-direction: row;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .roomblueandwhiteimg{
     height:139.5px;
@@ -647,7 +653,7 @@ les mettre cote a cote.*/
 /*reglage du font size et du margin pour faire rentrer le titre calanque dans la card*/
 .calanquestext{
  margin-left:1rem;
- font-size:17.7px;
+ font-size:17px;
 }
 .notredametext{
     margin-left:20px;
@@ -666,7 +672,7 @@ les mettre cote a cote.*/
     border:1px solid transparent;
     background-color: #F2F2F2;
     box-sizing: border-box;
-    width:1440px;
+    width:100%;
     height:auto;
     max-width:100%;
     display:flex;
@@ -698,3 +704,110 @@ les mettre cote a cote.*/
     color:black;
 }
 
+@media (max-width:650px) {
+    .hosting, .activity{
+        display:none;
+    }
+    .secondnav{
+        display:flex;
+        width: 100%;
+        margin-top: 3px;
+    }
+    .secondhosting, .secondactivity{
+        width: 50%;
+        text-decoration:none;
+        color:#0065FC;
+        text-align:center;
+        padding:21px;
+    }
+    .secondhosting,.secondactivity:hover{
+        border-bottom:3px #0065FC solid;    
+    }
+    .mainsection{
+        display:flex;
+        flex-direction: column-reverse;
+        width:100%;
+    }
+    .mostpopulare{
+        width:100%;
+        display: block;
+        height:845px;
+    }
+    .populareh2{
+        font-size:xx-large;
+    }
+    .colorroom{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .greenroom,.roomblueandwhite{
+        width: 94%;
+        margin-top:16px;
+        height:220px;
+    }
+    .waterroom{
+        width: 96%;
+        margin-top:14px;
+        height:220px;
+    }
+    .waterroomimg{
+        width:30vw;
+        height:204px;
+    }
+    .textwaterroom{
+        line-height:normal;
+        font-size: 21px;
+        margin-left:1rem;
+    }
+    .greenroomimg,.roomblueandwhiteimg{
+        width:30vw;
+        height:218px;
+    }
+    .textroomblueandwhite,.textgreenroom{
+        font-size:24px;
+        margin-left:1rem;
+        line-height: normal;
+    }
+    .hostingsection{
+        border: none;
+        background: none;
+     }
+     .mainhosting{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstarticle,.articletwo,.articlethree,.articlefour,.articlesix,.articlefive{
+        width:95vw;
+        height:380px;
+        
+    }
+    .firstarticleimg,.secondarticleimg,.thirdarticleimg,.fourtharticleimg,.fivetarticleimg,.sixarticleimg{
+        width:100%;
+        height: 66%;
+    }
+    .textfirst,.texttwo,.textthree.textfour,.textsix,.textfive{
+        margin-top:1rem;
+        font-size:20px;
+        line-height:13px;
+        margin-left:11px;
+    }
+    .sectionactivity{
+        display:block;
+        
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .activities{
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .help,.ourhosting,.aboutfooter{
+       align-items: center;
+   }
+
+}
