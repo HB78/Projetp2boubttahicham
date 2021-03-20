@@ -12,4 +12,108 @@
   -- 1100px Hebergement a marseille les plus populaire en flex column responsive
   -- 600px
   -- 400px
+
+@media (max-width:650px) {
+    .hosting, .activity{
+        display:none;
+    }
+    .secondnav{
+        display:flex;
+        width: 100%;
+        margin-top: 3px;
+    }
+    .secondhosting, .secondactivity{
+        width: 50%;
+        text-decoration:none;
+        color:#0065FC;
+        text-align:center;
+        padding:21px;
+    }
+    .secondhosting, .secondactivity{
+        border-bottom:3px #0065FC solid;    
+    }
+    .mainsection{
+        display:flex;
+        flex-direction: column-reverse;
+        width:100%;
+    }
+    .mostpopulare{
+        width:100%;
+        display: block;
+
+        
+    }
+    .colorroom{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .greenroom,.waterroom,.roomblueandwhite{
+        width: 94%;
+        margin-top:14px;
+    }
+    .greenroomimg,.waterroomimg,.roomblueandwhiteimg{
+        width:20vw;
+    }
+    .hostingsection{
+        border: none;
+        background: none;
+     }
+     .mainhosting{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstarticle,.articlethree,.articletwo,.articlefive,.articlefour,.articlesix{
+        width:90%;
+        
+    }
+    .firstarticleimg,.secondarticleimg,.thirdarticleimg,.fourtharticleimg,.firstarticleimg,.sixarticleimg{
+        width:100%;
+        height: 50%;
+        
+    }
+    .sectionactivity{
+        display:block;
+        
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
+@media (max-width:600px) {
+  
+    .mainsection{
+        display:flex;
+        flex-direction: column-reverse;
+        width:600px;
+    }
+    
+    .hostingsection{
+        
+        border: none;
+        background: none;
+     }
+     .mainhosting{
+         display: flex;
+         flex-direction: column;
+     }
+     .mostpopulare{
+         width:100%;
+         height:790px;
+         justify-content:space-between;
+         display: flex;
+     }
+     .iconpopulare{
+         margin-left:270px;
+     }
+     .greenroomimg,.waterroomimg,.roomblueandwhiteimg{
+         width:19vw;
+     }
+}
+
+    
   

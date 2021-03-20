@@ -291,7 +291,7 @@ a:link{
     border-radius: 1rem 1rem 1rem 1rem;
     width: 58%;
     border:1px solid transparent;
-    height:590px;
+
     padding-left:2rem;
     padding-top:8px;
     margin-right:2%;
@@ -313,14 +313,14 @@ a{
 }
 
 .firstarticle{
-    width:15vw;
+    width:90%;
     height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
     padding:0.5%;
-    margin-right : 30px;
+   
     margin-bottom: 30px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
@@ -335,14 +335,14 @@ a{
     font-size:13px;
 }
 .articletwo{
-    width:15vw;
+    width:94%;
     height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
     padding:0.5%;
-    margin-right : 30px;
+    
     margin-bottom: 30px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
@@ -356,7 +356,7 @@ a{
     font-size:13px;
 }
 .articlethree{
-    width:15vw;
+    width:90%;
     height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
     border:1px solid transparent;
@@ -375,7 +375,7 @@ a{
     font-size:13px;
 }
 .articlefour{
-    width:15vw;
+    width:90%;
     height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
     border:1px solid transparent;
@@ -396,14 +396,14 @@ a{
     font-size:13px;
 }
 .articlefive{
-    width:15vw;
+    width:77%;
     height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
     border:1px solid transparent;
     background-color: white;
     object-fit: contain;
     padding:0.5%;
-    margin-right :30px;
+    
     margin-bottom:30px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
@@ -417,7 +417,7 @@ a{
     font-size:13px;
 }
 .articlesix{
-    width:15vw;
+    width:100%;
     height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
     border:1px solid transparent;
@@ -475,7 +475,7 @@ les mettre cote a cote.*/
     align-items: center;
 }
 .iconpopulare{
-    margin-left:150px;
+    margin-left:140px;
     font-weight:bold;
     font-size:20px;
 }
@@ -569,7 +569,7 @@ les mettre cote a cote.*/
     background-color: white;
     margin-left:auto;
     margin-top:4px;
-    margin-right: auto;
+    margin-right:auto;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     cursor: pointer;
     padding-right:2.5rem;
@@ -605,6 +605,7 @@ les mettre cote a cote.*/
     flex-wrap: wrap;
     align-content: space-between;
     box-sizing: border-box;
+    width:100%;
   }
   /*pour séparer la partie hebergement et activités à Marseille*/
 
@@ -618,7 +619,6 @@ les mettre cote a cote.*/
       margin-left:10px; /*1rem margin left*/
       margin-right:auto; 
       margin-top:8px;
-    
   }
   .blocfrioulandfort{
     margin-right:1rem;
@@ -702,6 +702,17 @@ les mettre cote a cote.*/
 }
 .colorfooter{
     color:black;
+}
+.one{
+    display: flex;
+    height: 50%;
+    width:100%;
+}
+.two{
+    display: flex;
+    height: 50%;
+    width:100%;
+    justify-content: space-between;
 }
 
 @media (max-width:650px) {
