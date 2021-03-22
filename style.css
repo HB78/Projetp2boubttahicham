@@ -399,7 +399,7 @@ a{
     font-size:13px;
 }
 .articlefive{
-    width:79.5%;
+    width:77.9%;
     height:200px;
     border-radius: 1rem 1rem 1rem 1rem;
     border:1px solid transparent;
@@ -427,6 +427,7 @@ a{
     object-fit: contain;
     padding:0.5%;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
+    margin-left:-5px;
 }
 .sixarticleimg{
     width:100%;
@@ -440,6 +441,7 @@ article:hover{
 
 .textfirst,.texttwo,.textthree,.textfour,.textfive,.textsix{
     color:black;
+    margin-left:10px;
 }
 .showmore{
     color:black;
@@ -505,6 +507,7 @@ les mettre cote a cote.*/
 .textgreenroom{
     font-size:13px;
     line-height:19px;
+    margin-left:10px;
 }
 .waterroom{
   border: 1px solid transparent;
@@ -532,7 +535,7 @@ les mettre cote a cote.*/
     display:block;
     font-size:13px;
     line-height:19px;
-    
+    margin-left:10px;
 }
 .roomblueandwhite{
     border: 1px solid transparent;
@@ -558,6 +561,7 @@ les mettre cote a cote.*/
     font-size:13px;
     line-height:19px;
     color:black;
+    margin-left:10px;
 }
 
 /*activités à Marseille*/
@@ -571,7 +575,7 @@ les mettre cote a cote.*/
     background-color: white;
     margin-left:auto;
     margin-top:4px;
-    margin-right:auto;
+    margin-right:2.5rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     cursor: pointer;
     padding-right:2.5rem;
@@ -625,7 +629,7 @@ les mettre cote a cote.*/
   .blocfrioulandfort{
     margin-right:1rem;
     margin-top:2px;
-    margin-left:2.5rem; 
+    margin-left:3rem; 
   }
 
   .vieuxport{
@@ -659,7 +663,7 @@ les mettre cote a cote.*/
 }
 .notredametext{
     margin-left:20px;
- font-size:17px;
+    font-size:17px;
 }
 /*pour decoller les photos entre elles*/
   
@@ -715,6 +719,7 @@ les mettre cote a cote.*/
     width: 100%;
     height: 50%;
 }
+
 
 @media (max-width:650px){
    
@@ -802,7 +807,10 @@ les mettre cote a cote.*/
         margin-top:20px;
     }
 
-    
+    .articlethree,.articlefive{
+        margin-left: 0px;
+        margin-bottom:20px;
+    }
     .firstarticleimg,.secondarticleimg{
         height:65%;
     
@@ -851,7 +859,7 @@ les mettre cote a cote.*/
        height:350px;
        padding: 0px;
        margin-bottom:20px;
-       margin-left:0px;
+       margin-left:30px;
    }
    .vieuxportimg,.calanquesimg{
        width:100%;
@@ -862,6 +870,7 @@ les mettre cote a cote.*/
     height:350px;
     padding: 0px;
     margin-bottom:20px;
+    margin-left:30px;
    }
    .blocfrioulandfort,.blocnotredameandlongchamp{
        margin-left: 0px;
@@ -877,6 +886,7 @@ les mettre cote a cote.*/
        width:90%;
        margin-bottom:25px;
        height:350px;
+       margin-left:30px;
 }
 .vieuxporttxt,.forttext,.frioultext,.calanquestext,.notredametext,.parctext{
     font-size:23px;
@@ -887,6 +897,10 @@ les mettre cote a cote.*/
    }
    article:hover{
     transform: scale(0);
+}
+.iconpopulare{
+    margin-right:3rem;
+    font-size: 25px;
 }
 
 }
