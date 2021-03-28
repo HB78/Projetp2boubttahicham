@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>Reservia</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="(max-width:650px)" href="smartphone.css" >
+  <link rel="stylesheet" media="(min-width:768px) and (max-width:991px)" href="tablette.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -40,9 +42,13 @@
         <button class="buttonsearch">
           Rechercher
         </button>
+        <button class="secondbuttonsearch">
+          <span class="iconsearch"><i class="fas fa-search"></i></sapn>
+        </button>
       </form>
+      <h2 class="secondtextfilter">Filtres</h2>
       <div class="filter">
-        <h2>Filtres</h2>
+        <h2 class="textfilter">Filtres</h2>
         <div class="economic">
           <div class="iconmoney"><i class="fas fa-money-bill-wave"></i></div>
           <span class="economictext">Economique</span>
@@ -78,7 +84,7 @@
             <h2>Hébergements à Marseille</h2>
           </header>
           <div class="mainhosting">
-            <div class="one">
+            <div class="firstarticleline">
            <article>
               <div class="firstarticle">
                 <a href="#">
@@ -138,7 +144,7 @@
             </article>
             </div> <!--a effacer-->
 
-          <div class="two">
+          <div class="secondarticleline">
             <article>
                <div class="articlefour">
                 <a href="#">
