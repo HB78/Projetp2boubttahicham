@@ -42,9 +42,7 @@
          padding-left: 1rem;
          margin-left:0px;
      }
-     .iconpopulare{
-         margin-right:1rem;
-     }
+     
      .titlepopulare {
         margin: 3% 0%;
         height: 5%;
@@ -52,11 +50,12 @@
      .colorromm {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
          width: 95%;
          height: 86%;
          align-self: center;
-         margin: 0% 0% 1% 0%;
+         margin: 4% 0% 1% 0%;
+
      }
      
     }
@@ -65,7 +64,7 @@
         width:35vw;
     }
     .textgreenroom{
-        font-size:21px;
+        font-size:18px;
         line-height: normal;
         margin-left:1rem;
     }
@@ -75,7 +74,7 @@
         width:35.7vw;   
     }
     .textroomblueandwhite{
-        font-size:22px;
+        font-size:18px;
         margin-left:1rem;
         line-height: normal;
     }
@@ -86,7 +85,7 @@
     }
     .textwaterroom{
         line-height:normal;
-        font-size: 21px;
+        font-size: 17px;
         margin-left:1rem;
     }
 
@@ -139,7 +138,7 @@
     }
     .textfirst,.texttwo,.textthree,.textfour,.textsix,.textfive{
         margin-top:1rem;
-        font-size:20px;
+        font-size:18px;
         line-height:13px;
         margin-left:11px;
     }
@@ -213,7 +212,7 @@
        margin-left:10px;
     }
     .vieuxporttxt,.frioultext,.forttext,.calanquestext,.notredametext,.parctext{
-        font-size:28px;
+        font-size:22px;
     }
     
     /*Partie header*/
@@ -310,13 +309,16 @@
         height:5rem;
         width:5rem;
     }
+    .iconpopulare{
+        margin-left:10px;
+    }
     /*Footer*/
     .footer{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        font-size:25px;
+        font-size:21px;
         padding-bottom:1.5rem;
     }
     
@@ -325,4 +327,4 @@
     }
     
 }
-    
+
