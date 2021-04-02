@@ -1,7 +1,24 @@
 /*Partie tablette mode portrait*/
 
-@media (min-width:768px) and (max-width:991px){ 
+@media (min-width:768px) and (max-width:1024px){ 
 
+.secondnav{
+        display:flex;
+        justify-content: space-around;
+        font-size:20px;
+        margin-top:1rem;
+}
+.secondhosting,.secondactivity{
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+    .secondhosting,.secondactivity:hover{
+        border-bottom:3px #0065FC solid;
+        padding-bottom:25px;
+        color:#0065FC;
+    }
     .mainsection{
         display:flex;
         flex-direction: column-reverse;
@@ -14,7 +31,7 @@
      /*Partie les plus populaires*/
     
      .mostpopulare{
-         width:95%;
+         width:90%;
          display: flex;
          flex-direction: column;
          height: 945px;
@@ -34,11 +51,7 @@
          align-self: center;
          margin: 0% 0% 1% 0%;
      }
-     .greenroom{
-        width: 92%;
-        margin-top:16px;
-        height:200px;
-    }
+     
     .greenroomimg{
         height:199px;
         width:35vw;
@@ -48,11 +61,7 @@
         line-height: normal;
         margin-left:1rem;
     }
-    .roomblueandwhite{
-        width: 93%;
-        margin-top:16px;
-        height:200px;
-    }
+    
     .roomblueandwhiteimg{
         height:197px;
         width:35.7vw;   
@@ -62,11 +71,7 @@
         margin-left:1rem;
         line-height: normal;
     }
-    .waterroom{
-        width: 94.6%;
-        margin-top:14px;
-        height:200px;
-    }
+    
     
     .waterroomimg{
         height:200px;
@@ -189,21 +194,22 @@
     }
     
     .vieuxport,.calanques{
-       width:100%;
+       width:90%;
        height:370px;
        padding: 0px;
        margin-bottom:20px;
-       margin-left:0px;
+       margin-left:20px;
     }
     .vieuxportimg,.calanquesimg{
        width:100%;
        height: 280px;
     }
     .fortpomegues,.iledufrioul{
-      width:100%;
+      width:90%;
       height:370px;
       padding: 0px;
       margin-bottom:20px;
+      margin-left:20px;
     }
     .blocfrioulandfort,.blocnotredameandlongchamp{
        margin-left: 0px;
@@ -216,9 +222,10 @@
       padding:0px;
     }  
     .notredame,.parclongchamp{
-       width:100%;
+       width:90%;
        margin-bottom:25px;
        height:370px;
+       margin-left:20px;
     }
     .vieuxporttxt,.frioultext,.forttext,.calanquestext,.notredametext,.parctext{
         font-size:30px;
