@@ -3,6 +3,9 @@
     .main{
         overflow-x:hidden;
 }
+.logoreservia{
+    width: 31%;
+}
 
     .secondnav{
         display:flex;

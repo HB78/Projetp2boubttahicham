@@ -1,5 +1,8 @@
 /*smartphone mode paysage*/
 @media (min-width:481px) and (max-width:767px){
+    .logoreservia{
+        width: 46%;
+    }
     
     .secondnav{
         display:flex;
