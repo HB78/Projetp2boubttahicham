@@ -18,6 +18,8 @@
          flex-direction: column;
          height: 945px;
          padding-left: 1rem;
+         margin: 0px;
+         padding-right:1rem;
      }
      .titlepopulare {
         margin: 3% 0%;
@@ -89,7 +91,7 @@
     .mostpopulare>.colorromm>article>div{
         border: 1px solid transparent;
         background-color:white;
-        height:200px;
+        height:199px;
         width:100%;
         border-radius:1rem;
         object-fit: contain;
@@ -224,7 +226,7 @@
     
     /*Partie header*/
     .signup{
-        margin-right:85px;
+        margin-right:10px;
         font-size:22px;
     }
     .hosting, .activity{
@@ -342,11 +344,12 @@
      /*Partie les plus populaires*/
     
      .mostpopulare{
-         width:95%;
+         width:93%;
          display: flex;
          flex-direction: column;
          height: 945px;
          padding-left: 1rem;
+         padding-right:1rem;
      }
      .titlepopulare {
         margin: 3% 0%;
@@ -372,7 +375,7 @@
     }
     .textgreenroom{
         font-size:21px;
-        line-height: normal;
+        line-height:normal;
         margin-left:1rem;
     }
     .roomblueandwhite{
@@ -553,7 +556,7 @@
     
     /*Partie header*/
     .signup{
-        margin-right:85px;
+        margin-right:10px;
         font-size:22px;
     }
     .hosting, .activity{
@@ -656,3 +659,4 @@
     }
     
     }
+
