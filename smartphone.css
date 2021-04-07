@@ -154,7 +154,7 @@
     }
 
     .article-line>article {
-        width: 90%;
+        width: 95%;
         height: 31%;
 
     }
@@ -183,7 +183,7 @@
        height:370px;
        padding: 0px;
        margin-bottom:20px;
-       margin-left:10px;
+       margin-left:15px;
     }
     .vieuxportimg,.calanquesimg{
        width:100%;
@@ -194,7 +194,7 @@
       height:370px;
       padding: 0px;
       margin-bottom:20px;
-      margin-left:10px;
+      margin-left:15px;
     }
     .blocfrioulandfort,.blocnotredameandlongchamp{
        margin-left: 0px;
@@ -210,7 +210,7 @@
        width:100%;
        margin-bottom:25px;
        height:370px;
-       margin-left:10px;
+       margin-left:15px;
     }
     .vieuxporttxt,.frioultext,.forttext,.calanquestext,.notredametext,.parctext{
         font-size:22px;
@@ -319,7 +319,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        font-size:21px;
+        font-size:19px;
         padding-bottom:1.5rem;
     }
     
