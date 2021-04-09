@@ -26,8 +26,9 @@
 }
 .hosting,.activity:hover{
         border-bottom:3px #0065FC solid;
-        padding-bottom:25px;
+        padding-bottom:20px;
         color:#0065FC;
+        border-top:none;
 }
     .mainsection{
         display:flex;
