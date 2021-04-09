@@ -1,7 +1,7 @@
 /*smartphone mode paysage*/
 @media (min-width:481px) and (max-width:767px){
     .logoreservia{
-        width: 46%;
+        width:25%;
     }
     
     .secondnav{
@@ -176,7 +176,7 @@ article:hover{
 }
 
 .vieuxport,.calanques{
-   width:90%;
+   width:94%;
    height:370px;
    padding: 0px;
    margin-bottom:20px;
@@ -187,7 +187,7 @@ article:hover{
    height: 280px;
 }
 .fortpomegues,.iledufrioul{
-  width:90%;
+  width:94%;
   height:370px;
   padding: 0px;
   margin-bottom:20px;
@@ -204,7 +204,7 @@ article:hover{
   padding:0px;
 }  
 .notredame,.parclongchamp{
-   width:90%;
+   width:94%;
    margin-bottom:25px;
    height:370px;
    margin-left:10px;
@@ -215,9 +215,8 @@ article:hover{
 
 /*Partie header*/
 .signup{
-    margin-right:85px;
     font-size:22px;
-    margin-right:35px;
+    margin-right:15px;
 }
 .hosting, .activity{
     display:none;
