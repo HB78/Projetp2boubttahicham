@@ -1,31 +1,34 @@
 @media (max-width:480px){
     /*Partie header*/
-    .main{
-        overflow-x:hidden;
-}
-.logoreservia{
+
+  .logoreservia{
     width: 31%;
 }
 
-    .secondnav{
-        display:flex;
-        justify-content: space-around;
-        font-size:20px;
-        margin-top:1rem;
-}
-   .secondhosting,.secondactivity{
-    width:80%;
-    display:flex;
-    justify-content: space-evenly;
+.headernav{
+    position: relative;
 }
 
-    .secondhosting,.secondactivity:hover{
+.activity,.hosting{
+    margin-top:5rem;
+    display:flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border-top:none;
+}
+.activity{
+    position: absolute;
+    right:0%;
+}
+.hosting{
+    position: absolute;
+    right:40vw;
+}
+.hosting,.activity:hover{
         border-bottom:3px #0065FC solid;
         padding-bottom:25px;
         color:#0065FC;
-    }
-    
-
+}
     .mainsection{
         display:flex;
         flex-direction: column-reverse;
@@ -38,12 +41,14 @@
      /*Partie les plus populaires*/
     
      .mostpopulare{
-         width:90%;
+         width:100%;
          display: flex;
          flex-direction: column;
+         justify-content: center;
          height: 945px;
          padding-left: 1rem;
          margin-left:0px;
+         box-sizing: border-box;
      }
      
      .titlepopulare {
@@ -61,38 +66,38 @@
      
     }
     .greenroomimg{
-        height:199px;
+        height:160px;
         width:35vw;
     }
     .textgreenroom{
-        font-size:18px;
+        font-size:15px;
         line-height: normal;
         margin-left:1rem;
     }
     
     .roomblueandwhiteimg{
-        height:197px;
+        height:160px;
         width:35.7vw;   
     }
     .textroomblueandwhite{
-        font-size:18px;
+        font-size:15px;
         margin-left:1rem;
         line-height: normal;
     }
     
     .waterroomimg{
-        height:200px;
+        height:160px;
         width:35.4vw;
     }
     .textwaterroom{
         line-height:normal;
-        font-size: 17px;
+        font-size: 15px;
         margin-left:1rem;
     }
 
     .mostpopulare article {
         width: 100%;
-        height: 30%;
+        height: 40%;
     }
 
     .mostpopulare article>div {
@@ -103,7 +108,7 @@
     .mostpopulare>.colorromm>article>div{
         border: 1px solid transparent;
         background-color:white;
-        height:200px;
+        height:161px;
         width:100%;
         border-radius:1rem;
         object-fit: contain;
@@ -112,6 +117,7 @@
         font-size:10px;
         flex-direction:row;
         box-shadow:0 0 10px rgba(0,0,0,0.2);
+        padding-right:10px;
     }
     
     .hostingsection{
@@ -180,21 +186,19 @@
     
     .vieuxport,.calanques{
        width:90%;
-       height:370px;
+       height:250px;
        padding: 0px;
        margin-bottom:20px;
-       margin-left:15px;
     }
     .vieuxportimg,.calanquesimg{
        width:100%;
-       height: 280px;
+       height: 180px;
     }
     .fortpomegues,.iledufrioul{
       width:100%;
-      height:370px;
+      height:250px;
       padding: 0px;
       margin-bottom:20px;
-      margin-left:15px;
     }
     .blocfrioulandfort,.blocnotredameandlongchamp{
        margin-left: 0px;
@@ -203,18 +207,28 @@
     
     .fortpomeguesimg,.iledufrioulimg,.notredameimg,.parclongchampimg{
       width:100%;
-      height: 280px;
+      height: 180px;
       padding:0px;
     }  
     .notredame,.parclongchamp{
        width:100%;
-       margin-bottom:25px;
-       height:370px;
-       margin-left:15px;
+       height:250px;
     }
     .vieuxporttxt,.frioultext,.forttext,.calanquestext,.notredametext,.parctext{
         font-size:22px;
     }
+    .sectionactivity>.activities{
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 8px;
+        margin-right:9px;
+     }
+     .sectionactivity>.activities>div{
+         width:95%;
+         height:31%;
+     }
     
     /*Partie header*/
     .signup{
@@ -222,11 +236,10 @@
         font-size:20px;
         box-sizing: border-box;
     }
-    .hosting, .activity{
-        display:none;
-    }
+
     .sectionsearchtitle{
         font-size:24px;
+        margin-top: 4rem;
     }
     .sectionsearchparagraph{
         font-size:20px;
@@ -317,14 +330,15 @@
     .footer{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items:flex-start;
         width: 100%;
         font-size:19px;
         padding-bottom:1.5rem;
     }
     
     .help,.ourhosting,.aboutfooter{
-       align-items: center;
+       align-items:flex-start;
+       margin-left:1rem;
     }
     
 }

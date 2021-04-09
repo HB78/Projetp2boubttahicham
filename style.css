@@ -37,9 +37,6 @@ body{
      align-items: center;
 }
 
-.secondnav{
-    display:none;
-}
 
 .signup{
 
@@ -621,20 +618,16 @@ les mettre cote a cote.*/
 
 .calanques{
     height:520px;
-    width:252px;
     border-radius:1rem;
     border:1px solid transparent;
     object-fit: contain;
     background-color: white;
-    margin-left:auto;
     margin-top:4px;
-    margin-right:2.5rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     cursor: pointer;
-    padding-right:2.5rem;
 }
 .calanquesimg{
-    width:293px;
+    width:100%;
     height:462px;
     border-radius: 1rem 1rem 0rem 0rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
@@ -642,7 +635,6 @@ les mettre cote a cote.*/
 }
 .fortpomegues,.iledufrioul,.notredame,.parclongchamp{
     height:240px;
-    width:260px;
     border-radius:1rem;
     border:1px solid transparent;
     object-fit: contain;
@@ -653,7 +645,7 @@ les mettre cote a cote.*/
 }
 .fortpomeguesimg,.iledufrioulimg,.notredameimg,.parclongchampimg{
     height:180px;
-    width:260px;
+    width:100%;
     border-radius: 1rem 1rem 0rem 0rem;
     object-fit: cover;
 }
@@ -674,20 +666,10 @@ les mettre cote a cote.*/
   }
   /* mise en place des deux blocs contenant chacune deux petites photos par rapports aux grandes photos*/
 
-  .blocnotredameandlongchamp{
-      margin-left:10px; /*1rem margin left*/
-      margin-right:auto; 
-      margin-top:8px;
-  }
-  .blocfrioulandfort{
-    margin-right:1rem;
-    margin-top:2px;
-    margin-left:3rem; 
-  }
+  
 
   .vieuxport{
     height:513px;
-    width:252px;
     border-radius:1rem;
     border:1px solid transparent;
     object-fit: contain;
@@ -695,12 +677,11 @@ les mettre cote a cote.*/
     margin-bottom:2rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
     cursor: pointer;
-    margin-left:1rem;  
-    padding-right:30px; 
+
     margin-top:2px;
   }
   .vieuxportimg{
-    width:283px;
+    width:100%;
     height:454px;
     border-radius: 1rem 1rem 0rem 0rem;
     box-shadow:0 0 10px rgb(0,0,0,0.5);
@@ -723,6 +704,14 @@ les mettre cote a cote.*/
 .fortpomegues,.notredame{
  margin-bottom:2rem;
 
+  }
+  .sectionactivity>.activities{
+     width:100%;
+     display: flex;
+     justify-content: space-evenly;
+  }
+  .sectionactivity>.activities>div{
+      width:21%;
   }
 
   /*footer*/
